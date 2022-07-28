@@ -1,12 +1,21 @@
+/* This will sytle the Wordpress Core & UIPress Pages on the Dashboard with a morden Look and Feel */
+
+        /*------ADDING STYLES TO YOUR DASHBORAD-------*/
+/* 1. Using Admin CSS - Copy & Paste in the styles
+   2. Using Enqueue Style - https://drive.google.com/uc?id=1-N6I_GRsDV7839AIi70mMm3xWmbFlmQi
+*/
+
 /*------Menu-------*/
+html[uip-admin-menu=true] #uip-admin-menu{
+  min-height: 660px;
+    
+}
 #uip-admin-menu{
   border-radius: 10px;
   margin-top:10px;
    margin-right: 10px;
    margin-left: 5px;
    margin-bottom: 10px;
-   min-height: 660px;
-   max-height: 660px;
   }
 /*------Toolbar-------*/
 #uip-toolbar{
@@ -15,9 +24,8 @@
    margin-right: 20px;
   border-radius: 10px;
 }
-/*------Menu, Toolbar -Shadows-------*/
-#uip-toolbar,#uip-admin-menu,#uip-settings{
-  
+/*------Box Shadows-------*/
+#uip-toolbar,#uip-admin-menu,#uip-settings, #wp-media-grid,#wpbody-content > div.wrap,#overview-app{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -28,10 +36,9 @@
 #wp-media-grid,#wpbody-content > div.wrap,#overview-app{
   margin-top:20px;
   padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    position: relative;
-    top: 10px;
+  border-radius: 10px; 
+  position: relative;
+  top: 10px;
 }
 /*------Dashboard-------*/
 #overview-app{
