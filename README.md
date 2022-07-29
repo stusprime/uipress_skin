@@ -1,2 +1,3 @@
 # uipress_skin
-# Wordpress UIPress Plugin customized Dashboard
+# Wordpress - UiPress Dashboard Skin
+ 
