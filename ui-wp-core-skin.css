@@ -45,3 +45,17 @@ html[uip-admin-menu=true] #uip-admin-menu{
   margin-left :20px;
   margin-right: 10px;
 }
+
+
+
+/*------WOOCOMMERCE STYLE-------*/
+.woocommerce-layout__header{
+  display:none;
+}
+.woocommerce-layout__activity-panel-wrapper{
+  display:none;
+}
+
+#e-admin-top-bar-root:not(.e-admin-top-bar--active)~#wpbody .wrap .page-title-action, #e-admin-top-bar-root:not(.e-admin-top-bar--active)~#wpbody .wrap h1{
+  padding: 20px;
+}
