@@ -48,7 +48,7 @@ html[uip-admin-menu=true] #uip-admin-menu{
 
 
 
-/*------WOOCOMMERCE STYLE-------*/
+/*------WOOCOMMERCE STYLE (Optional)-------*/
 .woocommerce-layout__header{
   display:none;
 }
