@@ -1,4 +1,5 @@
 # uipress_skin --Outdated
+#No longer works with the latest versions of Uipress
 ## Wordpress - UiPress Dashboard Skin; Visually improve the styles of the UiPress.
 ###         ADDING STYLES TO YOUR DASHBORAD
  1. Using Admin CSS - Copy & Paste in the styles
